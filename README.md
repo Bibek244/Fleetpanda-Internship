@@ -1,0 +1,22 @@
+# Fleetpanda Internship Project
+
+## Overview
+
+This repository contains the code for the task perfomed in Fleetpanda Traineeship . 
+
+## Features
+
+- Feature 1: Clone webpage of official fleetpanda website.
+- Feature 2: Login and Registration using fetch api.
+- Feature 3: Weather app using https://openweathermap.org/
+
+## Installation
+
+To clone and run this project, you'll need Git installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+git clone https://github.com/Bibek244/Fleetpanda-Internship.git
+
+# Go into the repository
+cd Fleetpanda-Internship
