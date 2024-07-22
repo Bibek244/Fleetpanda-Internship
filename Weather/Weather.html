@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <section class="container flex flex-col justify-center align-center">
+        <div class="card flex flex-col space-around align-center">
+           <div class="location-search flex space-around overflow-hidden">
+            <input type="text" class="inputbox" name="location" id="location" placeholder="location">
+            <button type="button" id="search" class="btn">search</button>
+        </div>
+        <div class="error"></div>
+           <div class="weather  flex flex-col justify-center align-center p-2 m-2">
+            <img src="image/rainy.svg" alt="" id="weatherIcon" >
+            <h1 class="temp color-white">22°c</h1>
+            <h3 class="color-white">fleels like:</h3> <h3 class="feelsLike color-white"></h3>
+            <h2 class="city color-white">Bhaktapur, Nepal</h2>
+            <div class="details flex flex-row space-between align-center ">
+                <div class="col ">
+                    <img src="image/humidity.svg" id="humidityIcon" alt="humidity">
+                    <div>
+                        <p class="humidity color-white"></p>
+                        <p class="color-white">Humidity</p>
+                    </div>
+                </div>
+                <div class="col ">
+                    <img src="image/wind.svg" id="windIcon" alt="wind">
+                    <div>
+                        <p class="wind color-white"></p>
+                        <p class="color-white">Wind speed</p>
+                    </div>
+                </div>
+            </div>
+
+           </div>
+        </div>
+    </section>
+    <footer></footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
