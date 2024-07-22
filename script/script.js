@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   let submit = document.getElementById("form-submit");
+  let login = document.querySelector('#login');
 
   submit.addEventListener("click", function () {
     event.preventDefault();
@@ -10,7 +11,13 @@ document.addEventListener("DOMContentLoaded", function () {
       console.log("form submitted");
     }
   });
+
+  login.addEventListener("click",function (){
+    login.style.display = "block";
+
+  })
 });
+
 function validateEmail() {
   let email = document.getElementById("contact-email");
   let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -134,9 +141,6 @@ function toggleSwitch(id) {
     active = false;
         // console.log(active);
   }
-    
-   
-
-
-
+  
 }
+

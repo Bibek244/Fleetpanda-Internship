@@ -18,7 +18,6 @@ function  getData (city) {
       document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
       document.querySelector(".temp").innerHTML = data.main.temp + "°c";
       document.querySelector('.feelsLike').innerHTML = data.main.feels_like + "°c";
-      console.log(data.weather[0].main);
       switch(data.weather[0].main){
         case "Clouds": weatherIcon.src = "image/cloud.svg"; break;
         case "Clear": weatherIcon.src = "image/clear.svg"; break;
