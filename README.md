@@ -17,7 +17,8 @@ To clone and run this project, you'll need Git installed on your computer. From 
 # Clone this repository
 ```bash
 git clone https://github.com/Bibek244/Fleetpanda-Internship.git
-
+```
 # Go into the repository
 ```bash
 cd Fleetpanda-Internship
+```
