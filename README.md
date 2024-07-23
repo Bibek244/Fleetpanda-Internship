@@ -12,7 +12,7 @@ This repository contains the code for the task perfomed during Fleetpanda Traine
 
 ## Installation
 
-To clone and run this project, you'll need Git installed on your computer. From your command line:
+To clone and run this project, you'll need have Git installed on your computer. From your command line:
 
 # Clone this repository
 ```bash
