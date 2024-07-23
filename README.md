@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the code for the task perfomed in Fleetpanda Traineeship . 
+This repository contains the code for the task perfomed during Fleetpanda Traineeship . 
 
 ## Features
 
