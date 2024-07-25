@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/navbar.css" />
+    <link rel="stylesheet" href="../CSS/login.css" />
+    <script type="module" src="../Script/navbar.js"></script>
+    <script type="module" src="../Script/login.js"></script>
+  </head>
+  <body>
+    <section class="login">
+      <form class="login-form" id="myform">
+        <div class="login-container">
+          <div class="form-items">
+            <h2>Login</h2>
+          </div>
+          <div class="form-items">
+            <label for="name">E-mail:</label>
+            <input
+              type="text"
+              name="email"
+              class="input-tag"
+              id="name"
+              placeholder="email"
+            />
+            <span class="error" id="err-name"></span>
+          </div>
+          <div class="form-items">
+            <label for="password">password:</label>
+            <input
+              type="password"
+              name="password"
+              class="input-tag"
+              id="password"
+              placeholder="Password"
+            />
+            <span class="error" id="err-email"></span>
+          </div>
+          <div class="form-items">
+            <a href="Register.html">Don't have an acccount?</a>
+            <button class="btn contact-btn btn-demo" id="form-submit">
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

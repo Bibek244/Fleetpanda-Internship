@@ -1,16 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-}
-body{
-    height: 100%
+    box-sizing: border-box;
 }
 .login{
     display: flex;
     justify-content: center;
     align-items: center;
     /* border-style: solid; */
-    height: 100vh;
+    height: 80vh;
 }
 form {
     display: flex;
@@ -29,7 +27,7 @@ form {
     padding: 5px;
     margin: 2px;
     box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  
+}
   .form-container {
     display: flex;
     flex-direction: column;
